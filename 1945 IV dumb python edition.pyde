@@ -149,7 +149,7 @@ def draw():
         text(bosshp,300,100)
         fill(90,20,10)
         textSize(32)  
-        text("kill that god damn freaking fat boss!!!!",300,500)
+        text("kill that freaking fat boss!!!!",300,500)
 
     if bossby >= 600:
         bossby = bossy  
