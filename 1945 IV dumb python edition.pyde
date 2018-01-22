@@ -23,7 +23,7 @@ speed3 = 10
 speed4 = 12
 score = 0
 win = 0
-hp = 70
+hp = 40
 lose = 0
 primary_color = color(96, 150, 186)
 def setup():
@@ -67,7 +67,7 @@ def draw():
     by += speed2
     ebx = x
     eby += speed3
-    bossx = mouseX
+    bossx = random(width)
     bossby += speed4
     a=bx-x
     b=by-y
